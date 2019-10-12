@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Andy</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <h1>De Andy Para Los Jakines CHAT</h1>
+
+    <main>
+
+        <div class="caja">
+            <form class="log">
+                <h2>Ingrese Su Nick Bitch :3</h2>
+                <hr>
+                <input id="F1" type="text" placeholder="Ponlo Aquì">
+                <hr>
+                <input type="button" value="Enviar" id="btnLog">
+            </form>
+
+            <form class="edad">
+                <h2>Cuantos Años Tienes?</h2>
+                <hr>
+                <input id="F2" type="number" placeholder="Puedes Mentir ;)">
+                <hr>
+                <input type="button" value="Enviar" id="btnEdad">
+            </form>
+
+            <form class="genero">
+                <h2>Tienes Flauta o Empanada?</h2>
+                <hr>
+                <div class="cajita">
+                    <input id="hombre" type="button" value="Hombre" style="background:steelblue;">
+                    <input id="mujer" type="button" value="Mujer" style="background:pink;">
+                </div>
+            </form>
+
+        </div>
+
+
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: moccasin;
+    max-height: 92vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(0,0,0,0.4);
+    color:white;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.caja {
+    width: 100%;
+    height: 90vh;
+    position:absolute;
+}
+
+.log, .edad, .genero {
+    width: 30%;
+    padding: 20px;
+    background-color:rgba(0,0,0,0.3);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px 2px black;
+    border-radius:0 20px 0 10px;
+    transition:2s;
+    position:relative;
+}
+
+.log {
+    top:30%;
+    left:35%;
+}
+
+.log h2, .edad h2, .genero h2 {
+    margin:20px 0;
+    text-align: center;
+    color:white;
+}
+
+.log input, .edad input, .genero input {
+    padding: 10px;
+    border-radius:10px;
+    margin:20px 0;
+    font-size:30px;
+}
+
+.log input[type="button"], .edad input[type="button"] {
+    box-shadow: 2px 2px 2px 2px black, inset 2px 2px 2px white;
+    cursor:pointer;
+    background-color:mediumaquamarine;
+}
+
+.log input[type="button"]:hover, .edad input[type="button"]:hover {
+    box-shadow:inset 0 0 5px black;
+}
+
+.edad {
+    top:-150%;
+}
+
+.cajita {
+    display:flex;
+    justify-content: space-between;
+}
+
+.genero {
+    bottom: -50%;
+    left: 5%;
+}
+
+.chat {
+    width: 70%;
+    height: 80vh;
+    position:relative;
+    top:5%;
+    left:13%;
+}
+
+#tabla {
+    width: 100%;
+    height: 70vh;
+    background-color:rgba(255,255,255,0.5);
+    padding: 10px;
+}
+
+.chat form {
+    width: 100%;
+    display:flex;
+}
+
+.chat form input[type="text"] {
+    width: 80%;
+    padding: 20px;
+    font-size:30px;
+}
+
+.chat form span {
+    width: 20%;
+    font-size:25px;
+    background-color:mediumaquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+
+#tabla hr {
+    margin:7px 0 10px 0;
+}
+
+#tabla span {
+    font-size:25px;
+    color:darkblue;
+    font-weight: bolder;
+    font-style: italic;
+}
